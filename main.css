@@ -1,0 +1,49 @@
+
+body {
+    background-color: #1f1d1d;
+    
+}
+
+.btn-custom {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+}
+        .carousel img {
+            margin-top: 20px;
+            max-height: 300px;
+            object-fit: cover;
+        }
+        .card {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .card-body {
+            flex-grow: 1;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+            width: 100%;
+            
+            
+        }
+        .btn-custom {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: #b4afafc0;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
